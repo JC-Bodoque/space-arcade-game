@@ -1,15 +1,18 @@
 controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
     controller.moveSprite(myPlayer)
 })
+function playMusic () {
+    music.setVolume(25)
+    while (true) {
+        music.playMelody("E B C5 A B G A F ", 60)
+    }
+}
 controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
-    story.startCutscene(function () {
-        story.spriteSayText(myPlayer, "s'haja huj'os")
-        story.printDialog("I'll destroy you!", 80, 90, 50, 150)
-    })
+	
 })
-controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
-    playerProjectile.vy += -10
-})
+function setBackground (bg: Image) {
+    scene.setBackgroundImage(bg)
+}
 controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
     controller.moveSprite(myPlayer)
 })
@@ -19,16 +22,18 @@ controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
 controller.down.onEvent(ControllerButtonEvent.Pressed, function () {
     controller.moveSprite(myPlayer)
 })
-let myPlayer: Sprite = null
-let playerProjectile: Sprite = null
-scene.setBackgroundImage(assets.image`game_bg`)
-game.showLongText("Una raza de extraterrestres con forma reptiliana ha secuestrado a Sophie", DialogLayout.Bottom)
-info.setScore(0)
-info.setLife(10)
-playerProjectile = sprites.create(assets.image`player_rojectile`, SpriteKind.Projectile)
-myPlayer = sprites.create(assets.image`main_player`, SpriteKind.Player)
-let myEnemy = sprites.create(assets.image`main_enemy`, SpriteKind.Enemy)
-myEnemy.follow(myPlayer)
-while (true) {
-    music.playMelody("E B C5 A B G A F ", 60)
+function createPlayer (mySprite: Sprite) {
+    myPlayer = mySprite
+    info.setScore(0)
+    info.setLife(5)
 }
+let myPlayer: Sprite = null
+let myEnemy: Sprite = null
+setBackground(assets.image`game_bg`)
+playMusic()
+createPlayer(sprites.create(assets.image`main_player`, SpriteKind.Player))
+myEnemy.follow(myPlayer)
+let playerProjectile = sprites.create(assets.image`player_rojectile`, SpriteKind.Projectile)
+playerProjectile = sprites.createProjectileFromSide(assets.image`player_rojectile`, 50, 50)
+myEnemy = sprites.create(assets.image`main_enemy`, SpriteKind.Enemy)
+tiles.placeOnTile(myEnemy, tiles.getTileLocation(5, 5))

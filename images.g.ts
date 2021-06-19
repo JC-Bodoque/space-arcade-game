@@ -3,6 +3,81 @@ namespace myImages {
 
     helpers._registerFactory("image", function(name: string) {
         switch(helpers.stringTrim(name)) {
+            case "6mp+m)So*iNJr^Y6So~U":
+            case "player_rojectile":return img`
+. . . . . . . . . . . . . . . . 
+. . . . . . 8 8 . . . . . . . . 
+. . . . . . 8 8 8 . . . . . . . 
+. . . . . . 8 2 8 . . . . . . . 
+. . . . . . 8 2 8 8 . . . . . . 
+. . . . . . 8 2 8 8 . . . . . . 
+. . . . . 8 8 2 8 8 . . . . . . 
+. . . . . 8 2 2 2 8 . . . . . . 
+. . . . . 8 2 2 2 8 . . . . . . 
+. . . . . 8 2 8 2 8 . . . . . . 
+. . . . . 8 2 8 8 8 . . . . . . 
+. . . . . 8 8 8 8 . . . . . . . 
+. . . . . . 8 . 8 . . . . . . . 
+. . . . . . . . 8 . . . . . . . 
+. . . . . . . . 8 . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`;
+            case "$_z_t4Fb}*}Um^!-+AKE":
+            case "main_player":return img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . b b b . . . . . . . 
+. . . . . b 6 6 6 b . . . . . . 
+. . . . b 6 6 6 6 6 b . . . . . 
+. . . . b 6 6 6 6 6 b . . . . . 
+. . . b b 7 6 6 6 7 b b . . . . 
+. . b 8 8 7 7 7 7 7 8 8 b . . . 
+. . b 8 8 7 7 7 7 7 8 8 b . . . 
+. b b b b b b b b b b b b b . . 
+. b b b b b b b b b b b b b . . 
+. . b b b . . . . . b b b . . . 
+. . 2 2 2 . . . . . 2 2 2 . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`;
+            case "LsX%ru^mYNOQDe}GYk41":
+            case "main_enemy":return img`
+. . . . . . 2 2 2 2 . . . . . . 
+. . . 5 5 c c c c c c 5 5 . . . 
+. 2 2 c c 9 9 9 9 9 9 c 2 2 2 . 
+. 2 c c 9 9 9 9 9 9 9 9 c c 2 . 
+. 2 c 9 9 9 9 9 9 9 9 9 9 c 2 . 
+. 2 c 2 2 8 8 8 8 8 8 2 2 c 2 . 
+. 2 c 2 2 8 8 8 8 8 8 2 2 c 2 . 
+. 2 c 2 2 8 8 8 8 8 8 2 2 c 2 . 
+. 2 c 2 2 8 8 8 8 8 8 2 2 c 2 . 
+. 2 c 2 2 2 2 2 2 2 2 2 2 c 2 . 
+. 2 c 2 a a a a a a a a 2 c 2 . 
+. 2 2 2 2 2 2 2 2 2 2 2 2 2 2 . 
+. . . 2 a a a a a a a a 2 . . . 
+. . . 2 a a a a a a a a 2 . . . 
+. . . 2 2 2 2 2 2 2 2 2 2 . . . 
+. . . . . . . . . . . . . . . . 
+`;
+            case "]H=Oi6a~~)6r9Ut7-Z|*":
+            case "frame":return img`
+. . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . 
+e e e e e e e e e e e e e e e 
+e . . . . . . . . . . . . . e 
+e . . . . . . . . . . . . . e 
+e . . . . . . . . . . . . . e 
+e . . . . . . . . . . . . . e 
+e . . . . . . . . . . . . . e 
+e . . . . . . . . . . . . . e 
+e . . . . . . . . . . . . . e 
+e . . . . . . . . . . . . . e 
+e . . . . . . . . . . . . . e 
+e . . . . . . . . . . . . . e 
+e e e e e e e e e e e e e e e 
+`;
             case "BXU4#!@:eev{pC16*lZi":
             case "game_bg":return img`
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
@@ -15,7 +90,7 @@ fffffffffffffffffffffffffffffffffffffffffffffff5ffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 fffffff5ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff5fffffffffffffffffffffffffffffffffffff
-ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff3ffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff99d99bbbbbcfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff99ddbdd66168bcccccc9fffffffffffffffffff5ffffffffffffffffffffffffffffffffffffffffffffffffffff
 fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff999ddbbbd66888111ccccccb99fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
@@ -125,63 +200,6 @@ ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-`;
-            case "6mp+m)So*iNJr^Y6So~U":
-            case "player_rojectile":return img`
-. . . . . . . . . . . . . . . . 
-. . . . . . 8 8 . . . . . . . . 
-. . . . . . 8 8 8 . . . . . . . 
-. . . . . . 8 2 8 . . . . . . . 
-. . . . . . 8 2 8 8 . . . . . . 
-. . . . . . 8 2 8 8 . . . . . . 
-. . . . . 8 8 2 8 8 . . . . . . 
-. . . . . 8 2 2 2 8 . . . . . . 
-. . . . . 8 2 2 2 8 . . . . . . 
-. . . . . 8 2 8 2 8 . . . . . . 
-. . . . . 8 2 8 8 8 . . . . . . 
-. . . . . 8 8 8 8 . . . . . . . 
-. . . . . . 8 . 8 . . . . . . . 
-. . . . . . . . 8 . . . . . . . 
-. . . . . . . . 8 . . . . . . . 
-. . . . . . . . . . . . . . . . 
-`;
-            case "$_z_t4Fb}*}Um^!-+AKE":
-            case "main_player":return img`
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . b b b . . . . . . . 
-. . . . . b 6 6 6 b . . . . . . 
-. . . . b 6 6 6 6 6 b . . . . . 
-. . . . b 6 6 6 6 6 b . . . . . 
-. . . b b 7 6 6 6 7 b b . . . . 
-. . b 8 8 7 7 7 7 7 8 8 b . . . 
-. . b 8 8 7 7 7 7 7 8 8 b . . . 
-. b b b b b b b b b b b b b . . 
-. b b b b b b b b b b b b b . . 
-. . b b b . . . . . b b b . . . 
-. . 2 2 2 . . . . . 2 2 2 . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-`;
-            case "LsX%ru^mYNOQDe}GYk41":
-            case "main_enemy":return img`
-. . . . . . 2 2 2 2 . . . . . . 
-. . . 5 5 c c c c c c 5 5 . . . 
-. 2 2 c c 9 9 9 9 9 9 c 2 2 2 . 
-. 2 c c 9 9 9 9 9 9 9 9 c c 2 . 
-. 2 c 9 9 9 9 9 9 9 9 9 9 c 2 . 
-. 2 c 2 2 8 8 8 8 8 8 2 2 c 2 . 
-. 2 c 2 2 8 8 8 8 8 8 2 2 c 2 . 
-. 2 c 2 2 8 8 8 8 8 8 2 2 c 2 . 
-. 2 c 2 2 8 8 8 8 8 8 2 2 c 2 . 
-. 2 c 2 2 2 2 2 2 2 2 2 2 c 2 . 
-. 2 c 2 a a a a a a a a 2 c 2 . 
-. 2 2 2 2 2 2 2 2 2 2 2 2 2 2 . 
-. . . 2 a a a a a a a a 2 . . . 
-. . . 2 a a a a a a a a 2 . . . 
-. . . 2 2 2 2 2 2 2 2 2 2 . . . 
-. . . . . . . . . . . . . . . . 
 `;
         }
         return null;
