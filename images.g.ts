@@ -3,25 +3,6 @@ namespace myImages {
 
     helpers._registerFactory("image", function(name: string) {
         switch(helpers.stringTrim(name)) {
-            case "$_z_t4Fb}*}Um^!-+AKE":
-            case "Player":return img`
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . b b b . . . . . . . 
-. . . . . b 6 6 6 b . . . . . . 
-. . . . b 6 6 6 6 6 b . . . . . 
-. . . . b 6 6 6 6 6 b . . . . . 
-. . . b b 7 6 6 6 7 b b . . . . 
-. . b 8 8 7 7 7 7 7 8 8 b . . . 
-. . b 8 8 7 7 7 7 7 8 8 b . . . 
-. b b b b b b b b b b b b b . . 
-. b b b b b b b b b b b b b . . 
-. . b b b . . . . . b b b . . . 
-. . 2 2 2 . . . . . 2 2 2 . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-`;
             case "BXU4#!@:eev{pC16*lZi":
             case "game_bg":return img`
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
@@ -145,25 +126,6 @@ ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 `;
-            case "LsX%ru^mYNOQDe}GYk41":
-            case "enemy":return img`
-. . . . . . 2 2 2 2 . . . . . . 
-. . . 5 5 c c c c c c 5 5 . . . 
-. 2 2 c c 9 9 9 9 9 9 c 2 2 2 . 
-. 2 c c 9 9 9 9 9 9 9 9 c c 2 . 
-. 2 c 9 9 9 9 9 9 9 9 9 9 c 2 . 
-. 2 c 2 2 8 8 8 8 8 8 2 2 c 2 . 
-. 2 c 2 2 8 8 8 8 8 8 2 2 c 2 . 
-. 2 c 2 2 8 8 8 8 8 8 2 2 c 2 . 
-. 2 c 2 2 8 8 8 8 8 8 2 2 c 2 . 
-. 2 c 2 2 2 2 2 2 2 2 2 2 c 2 . 
-. 2 c 2 a a a a a a a a 2 c 2 . 
-. 2 2 2 2 2 2 2 2 2 2 2 2 2 2 . 
-. . . 2 a a a a a a a a 2 . . . 
-. . . 2 a a a a a a a a 2 . . . 
-. . . 2 2 2 2 2 2 2 2 2 2 . . . 
-. . . . . . . . . . . . . . . . 
-`;
             case "6mp+m)So*iNJr^Y6So~U":
             case "player_rojectile":return img`
 . . . . . . . . . . . . . . . . 
@@ -181,6 +143,44 @@ ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 . . . . . . 8 . 8 . . . . . . . 
 . . . . . . . . 8 . . . . . . . 
 . . . . . . . . 8 . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`;
+            case "$_z_t4Fb}*}Um^!-+AKE":
+            case "main_player":return img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . b b b . . . . . . . 
+. . . . . b 6 6 6 b . . . . . . 
+. . . . b 6 6 6 6 6 b . . . . . 
+. . . . b 6 6 6 6 6 b . . . . . 
+. . . b b 7 6 6 6 7 b b . . . . 
+. . b 8 8 7 7 7 7 7 8 8 b . . . 
+. . b 8 8 7 7 7 7 7 8 8 b . . . 
+. b b b b b b b b b b b b b . . 
+. b b b b b b b b b b b b b . . 
+. . b b b . . . . . b b b . . . 
+. . 2 2 2 . . . . . 2 2 2 . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`;
+            case "LsX%ru^mYNOQDe}GYk41":
+            case "main_enemy":return img`
+. . . . . . 2 2 2 2 . . . . . . 
+. . . 5 5 c c c c c c 5 5 . . . 
+. 2 2 c c 9 9 9 9 9 9 c 2 2 2 . 
+. 2 c c 9 9 9 9 9 9 9 9 c c 2 . 
+. 2 c 9 9 9 9 9 9 9 9 9 9 c 2 . 
+. 2 c 2 2 8 8 8 8 8 8 2 2 c 2 . 
+. 2 c 2 2 8 8 8 8 8 8 2 2 c 2 . 
+. 2 c 2 2 8 8 8 8 8 8 2 2 c 2 . 
+. 2 c 2 2 8 8 8 8 8 8 2 2 c 2 . 
+. 2 c 2 2 2 2 2 2 2 2 2 2 c 2 . 
+. 2 c 2 a a a a a a a a 2 c 2 . 
+. 2 2 2 2 2 2 2 2 2 2 2 2 2 2 . 
+. . . 2 a a a a a a a a 2 . . . 
+. . . 2 a a a a a a a a 2 . . . 
+. . . 2 2 2 2 2 2 2 2 2 2 . . . 
 . . . . . . . . . . . . . . . . 
 `;
         }
