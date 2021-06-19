@@ -16,24 +16,23 @@ function setBackground (bg: Image) {
 controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
     controller.moveSprite(myPlayer)
 })
+function createEnemy () {
+    myEnemy = sprites.create(assets.image`main_enemy`, SpriteKind.Enemy)
+}
 controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
     controller.moveSprite(myPlayer)
 })
 controller.down.onEvent(ControllerButtonEvent.Pressed, function () {
     controller.moveSprite(myPlayer)
 })
-function createPlayer (mySprite: Sprite) {
-    myPlayer = mySprite
+function createPlayer () {
+    myPlayer = sprites.create(assets.image`main_player`, SpriteKind.Player)
     info.setScore(0)
     info.setLife(5)
 }
-let myPlayer: Sprite = null
 let myEnemy: Sprite = null
+let myPlayer: Sprite = null
 setBackground(assets.image`game_bg`)
 playMusic()
-createPlayer(sprites.create(assets.image`main_player`, SpriteKind.Player))
-myEnemy.follow(myPlayer)
-let playerProjectile = sprites.create(assets.image`player_rojectile`, SpriteKind.Projectile)
-playerProjectile = sprites.createProjectileFromSide(assets.image`player_rojectile`, 50, 50)
-myEnemy = sprites.create(assets.image`main_enemy`, SpriteKind.Enemy)
-tiles.placeOnTile(myEnemy, tiles.getTileLocation(5, 5))
+createPlayer()
+createEnemy()
