@@ -1,5 +1,5 @@
 {
-    "name": "space-crusader",
+    "name": "Test game",
     "description": "",
     "dependencies": {
         "device": "*",
@@ -22,7 +22,7 @@
         "test.ts"
     ],
     "targetVersions": {
-        "target": "1.4.45",
+        "target": "1.4.44",
         "targetId": "arcade"
     },
     "supportedTargets": [
